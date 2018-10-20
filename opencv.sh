@@ -1,15 +1,15 @@
 # install opencv
 
 cd
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
 # remove previous files
-sudo apt-get remove x264 libx264-dev
+sudo apt-get remove x264 libx264-dev -y
 
 # install dependencies
 sudo apt-get install build-essential checkinstall cmake pkg-config yasm -y
-sudo apt-get install git gfortran 
+sudo apt-get install git gfortran -y 
 sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev -y
 
 # 
